@@ -59,11 +59,11 @@ But as the user base grows, problems appear:
    - Document Stores
   
 |Type	|What it is	|Example	|Use Case|
----
-|Key-Value Stores	|Data stored as key → value pairs	|Redis, DynamoDB	|Caching, session storage, super-fast lookup
-|Document Stores	|Store JSON-like documents	|MongoDB, CouchDB	|Storing user profiles, logs, product catalogs
-|Column Stores	|Data stored in columns instead of rows	|Cassandra, HBase	|Analytics on huge datasets (petabytes)
-|Graph Databases	|Store data as nodes and relationships	|Neo4j, JanusGraph	|Social networks, recommendation engines
+|---|---|---|---|
+|Key-Value Stores	|Data stored as key → value pairs	|Redis, DynamoDB	|Caching, session storage, super-fast lookup|
+|Document Stores	|Store JSON-like documents	|MongoDB, CouchDB	|Storing user profiles, logs, product catalogs|
+|Column Stores	|Data stored in columns instead of rows	|Cassandra, HBase	|Analytics on huge datasets (petabytes)|
+|Graph Databases	|Store data as nodes and relationships	|Neo4j, JanusGraph	|Social networks, recommendation engines|
 
 - Non-relational databases might be the right choice if:
    - application requires super-low latency.
