@@ -52,6 +52,18 @@ But as the user base grows, problems appear:
 ### Database Choices
 
 1. **Relational Databases (SQL):** Structured data stored in tables. Examples: MySQL, PostgreSQL.
+
+ Limitation
+
+ Horizontal scaling is hard for SQL because:
+
+Maintaining ACID consistency across servers is tough.
+
+Complex joins across servers hurt performance.
+
+Sharding adds operational complexity.
+
+
 2. **Non-Relational Databases (NoSQL):** Suitable for unstructured data or low-latency requirements. Categories include:
   
 |Type	|What it is	|Example	|Use Case|
