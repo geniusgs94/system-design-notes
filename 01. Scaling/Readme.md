@@ -41,9 +41,7 @@ But as the user base grows, problems appear:
 2. Different Scaling Needs
    
 3. Performance
-   Databases are I/O heavy (disk + memory access).
-
-Web servers are CPU/network heavy.
+   Databases are I/O heavy (disk + memory access).Web servers are CPU/network heavy.
 
 4. Reliability & Maintenance: Separate servers → isolate failures and upgrade them independently.
 
