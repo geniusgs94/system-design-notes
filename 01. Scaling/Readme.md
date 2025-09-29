@@ -25,6 +25,7 @@ Initially, all components (web app, database, cache) run on a single server.
 
 ## Section 2: Database Separation
 As the user base grows, the database is moved to a dedicated server to allow independent scaling of web and database tiers.
+
 When your app starts out (say a small web app), you usually run the web server + the database on the same machine because:
 
 It’s cheap.
