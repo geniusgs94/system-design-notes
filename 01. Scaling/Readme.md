@@ -38,7 +38,7 @@ But as the user base grows, problems appear:
 
 1. Resource Contention
    
-2. Different Scaling Needs
+2. Different Scaling Needs (Vertical vs Horizontal)
    
 3. Performance
    Databases are I/O heavy (disk + memory access).Web servers are CPU/network heavy.
