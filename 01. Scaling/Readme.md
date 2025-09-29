@@ -53,10 +53,6 @@ But as the user base grows, problems appear:
 
 1. **Relational Databases (SQL):** Structured data stored in tables. Examples: MySQL, PostgreSQL.
 2. **Non-Relational Databases (NoSQL):** Suitable for unstructured data or low-latency requirements. Categories include:
-   - Key-Value Stores
-   - Graph Databases
-   - Column Stores
-   - Document Stores
   
 |Type	|What it is	|Example	|Use Case|
 |---|---|---|---|
