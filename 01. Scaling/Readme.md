@@ -134,7 +134,7 @@ master.
 recovery scripts (methods like multi-masters and circular replication could help).
 
 
-##FIXES
+## FIXES
 
 Slave failure: Auto-failover + rebuild from backups.
 
