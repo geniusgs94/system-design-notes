@@ -133,6 +133,17 @@ master.
 - In production system the chosen slave database might not be up to date, hence data needs to be updated by running data
 recovery scripts (methods like multi-masters and circular replication could help).
 
+
+##FIXES
+
+Slave failure: Auto-failover + rebuild from backups.
+
+Master failure: Promote slave, use semi-synchronous replication to avoid data loss.
+
+Replication lag: Read-your-writes consistency, lag monitoring, or synchronous replication.
+
+Scaling beyond: Multi-master replication or distributed DBs like Spanner/CockroachDB.
+
 ---
 
 ## Section 6: Caching
